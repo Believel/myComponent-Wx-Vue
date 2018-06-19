@@ -7,7 +7,7 @@ module.exports = {
         assetsPublicPath: "/",
         proxyTable: {},
         host: "localhost",
-        port: "8089"
+        port: "8084"
     },
     //打包
     build: {
