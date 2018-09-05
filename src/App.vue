@@ -23,8 +23,5 @@ export default {
 #app {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: $red_c;
-    margin-top: 60px;
 }
 </style>
