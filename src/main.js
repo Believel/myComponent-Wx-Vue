@@ -10,6 +10,7 @@ import store from "./store.js"
 import vueUtil from "./util/vueUtil.js"
 import axios from 'axios'
 import 'mint-ui/lib/style.css'
+import './util/Array.js';
 
 Vue.config.productionTip = false
 Vue.use(MintUI);
