@@ -5,13 +5,13 @@
 </template>
 
 <script>
+import router from './router';
 export default {
     name: 'App',
     data() {
         return {}
     },
     components: {},
-    created() { },
     mounted() { },
     methods: {}
 }

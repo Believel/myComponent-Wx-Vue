@@ -20,6 +20,12 @@ Vue.prototype.$http = axios;
 new Vue({
     el: '#app',
     router,
+    scrollBehavior (to, from, savedPosition){
+        return {
+            x: 0,
+            y: 0
+        } 
+    },
     store,
     components: { App },
     template: '<App/>'
