@@ -20,7 +20,7 @@ export default setConfig({
     /* 不同环境配置 */
     setting: {
         localhost: {
-            URLWEBHTTP: 'http://localhost:8089/api'
+            URLWEBHTTP: 'http://devo2o.zhiscity.com'
         },
         testdev: {
             URLWEBHTTP: 'http://www.baidu.com/testdev'

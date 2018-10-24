@@ -20,3 +20,5 @@ export const get_baidu = params => vhttp('/baidu', params, 'GET');
 
 // 请求百度接口获取数据
 export const post_baidu = params => vhttp('/baidu', params, 'POST');
+// 获取保险产品列表(分页)接口
+export const get_InsuranceList = params => vhttp('/additional-insurance/h5/insurance/pageList', params, 'POST');

@@ -1,17 +1,32 @@
 <template>
     <div id="app">
+        <loading v-show="showLoading"></loading>
         <router-view/>
     </div>
 </template>
 
 <script>
 import router from './router';
+import loading from '@/components/loading';
+import util from './util/util.js'
 export default {
     name: 'App',
     data() {
-        return {}
+        return {
+            showLoading: false
+        }
     },
-    components: {},
+    components: {
+        loading
+    },
+    created() {
+        util.vueEvent.$on("showloading", () => {
+            this.showLoading = true;
+        });
+        util.vueEvent.$on("disloading", () => {
+            this.showLoading = false;
+        });
+    },
     mounted() { },
     methods: {}
 }

@@ -53,7 +53,7 @@ let tstArr = [1,2,3];
 console.log(tstArr.map((item) => {
     return item*2;
 }))
-console.log(tstArr) // 原数组没变
+// console.log(tstArr) // 原数组没变
 // =================================end============================================
 
 // reduce(callback[initialValue])
@@ -66,15 +66,15 @@ let newReduceArr = reduceArr.reduce(function(prev,next){
     // console.log("next:",next);  // orange
     return prev + ' ' + next;
 });
-console.log(newReduceArr) // apple orange
+// console.log(newReduceArr) // apple orange
 
 // 2. 有两个参数callback, initialValue, 那么callback中里面的第一个参数的值是initialValue的值， 第二个参数的值是第一个元素的值
 let reduce2Arr = [1, 2, 3, 4];
 let newReduce2Arr = reduce2Arr.reduce((prev, next) => {
     return prev + next
 }, 100)
-console.log(newReduce2Arr); // 110
-console.log(reduce2Arr);  // [1, 2, 3, 4]
+// console.log(newReduce2Arr); // 110
+// console.log(reduce2Arr);  // [1, 2, 3, 4]
 
 // ===================================end=====================================================
 
@@ -87,4 +87,4 @@ let newReduceRightArr = reduceRightArr.reduceRight((prev, next) => {
     return prev + "" + next;
 })
 
-console.log(newReduceRightArr)
+// console.log(newReduceRightArr)
