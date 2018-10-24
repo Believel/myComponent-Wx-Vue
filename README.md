@@ -38,3 +38,11 @@ npm run build testdev
 #### 生产环境
 npm run build pro
 
+## 开发组件
+### one 移动端分页组件
+1. 效果视频文件
+![视频文件地址](https://github.com/Believel/MarkdownPhotos/blob/master/page.mp4)
+2. 代码地址
+[代码地址](https://github.com/Believel/myComponent-Wx-Vue/blob/master/src/view/List/index.vue)
+
+
