@@ -59,7 +59,7 @@
             return {
                 pagenum: 1,         // 第一页
                 pageSize: 4,       // 每页的条数
-                pages: '',          // 总页数
+                pages: '',          // 当页总条数
 
                 lastnum: 'no',      // 最后滚动加载的条数
                 showbottom: false,  // 是否显示已经到底了的页面
@@ -114,7 +114,7 @@
                             }
                             // 滚动时的加载状态取消
                             this.loading = false;
-                            // 设置总条数
+                            // 设置当页总条数
                             this.pages = result.data.data.pages;
                             // 设置最后的数据为当前页的条数
                             this.lastnum = result.data.data.list.length;
